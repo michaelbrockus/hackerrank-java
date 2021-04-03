@@ -24,7 +24,6 @@ public class Main {
         System.out.println("String: " + s);
         System.out.println("Double: " + d);
         System.out.println("Int: " + i);
-    }
     } // end of method main
 
 } // end of class

@@ -4,6 +4,7 @@
 // gmail: <michaelbrockus@gmail.com>
 // github: https://github.com/michaelbrockus
 //
+import java.util.*;
 
 
 public class Main {
@@ -13,7 +14,14 @@ public class Main {
     //
     static public void main(String[] args)
     {
-        System.out.println("We are ready for a cup of HackerRank");
+        Scanner scan = new Scanner(System.in);
+        int valueOne = scan.nextInt();
+        int valueTwo = scan.nextInt();
+        int valueThree = scan.nextInt();
+
+        System.out.println(valueOne);
+        System.out.println(valueTwo);
+        System.out.println(valueThree);
     } // end of method main
 
 } // end of class

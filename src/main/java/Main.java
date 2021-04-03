@@ -24,12 +24,18 @@ public class Main {
         int N = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
 
-        if (N % 2 == 0) {
-            System.out.println("Not Weird");
-        } // end if
-        else {
+        if(N % 2 == 1) {
             System.out.println("Weird");
-        } // end else
+        } // end if
+        else if (N >= 2 && N <= 5) {
+            System.out.println("Not Weird");
+        }
+        else if (N >= 6 && N <= 20) { 
+            System.out.println("Weird");
+        } // end else if
+        else if (N > 20) {
+            System.out.println("Not Weird");
+        } // end else if
 
         scanner.close();
     } // end of method main

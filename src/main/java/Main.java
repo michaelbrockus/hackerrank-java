@@ -29,7 +29,7 @@ public class Main {
         } // end if
         else if (N >= 2 && N <= 5) {
             System.out.println("Not Weird");
-        }
+        } // end else if
         else if (N >= 6 && N <= 20) { 
             System.out.println("Weird");
         } // end else if

@@ -14,6 +14,6 @@ public class Main {
     static public void main(String[] args)
     {
         System.out.println("We are ready for a cup of HackerRank");
-    } // end of method
+    } // end of method main
 
 } // end of class

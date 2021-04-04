@@ -13,7 +13,20 @@ public class Main {
     //
     static public void main(String[] args)
     {
-        System.out.println("We are ready for a cup of HackerRank");
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("================================");
+        for(int i = 0; i < 3; i++) {
+            String s1 = sc.next();
+            int x = sc.nextInt();
+
+            // Printing a formatted string in one line of Java
+            System.out.printf("%-14s %03d %n", s1, x);
+
+        } // end for
+        System.out.println("================================");
     } // end of method main
+
+    sc.close(); // We close this to avoid memory leek
 
 } // end of class

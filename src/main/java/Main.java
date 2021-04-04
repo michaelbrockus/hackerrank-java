@@ -4,8 +4,6 @@
 // gmail: <michaelbrockus@gmail.com>
 // github: https://github.com/michaelbrockus
 //
-import java.util.*;
-import java.security.*;
 
 
 public class Main {
@@ -15,24 +13,7 @@ public class Main {
     //
     static public void main(String[] args)
     {
-      DoNotTerminate.forbidExit();
-
-      try {
-              Scanner in = new Scanner(System.in);
-              int n = in .nextInt();
-              in.close();
-              // String s=???; Complete this line below
-
-             String s = String.valueOf(n);
-
-             if (n == Integer.parseInt(s)) {
-                System.out.println("Good job");
-             } else {
-                 System.out.println("Wrong answer.");
-             }
-         } catch (DoNotTerminate.ExitTrappedException e) {
-             System.out.println("Unsuccessful Termination!!");
-         }
-     } // end of method main
+        System.out.println("We are ready for a cup of HackerRank");
+    } // end of method
 
 } // end of class

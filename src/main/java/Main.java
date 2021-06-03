@@ -27,8 +27,7 @@ public class Main {
 
         } // end for
         System.out.println("================================");
+        sc.close(); // We close this to avoid memory leek
     } // end of method main
-
-    sc.close(); // We close this to avoid memory leek
 
 } // end of class
